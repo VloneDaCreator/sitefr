@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact us for inquiries and feedback.">
+    <title>Контакт с ElectriX - Свържете се с нас</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/contact.css">
+    
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+            <img src="images/logo.jpg" alt="Logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Начало</a></li>
+                <li><a href="info.html">За нас</a></li>
+                <li><a href="features.html">Характеристики</a></li>
+                <li><a href="news.html">Новини</a></li>
+                <li><a href="contact.html">Контакт</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact">
+            <h1>Свържете се с ElectriX - Лидер в иновациите на електромобили</h1>
+            <p>Нашият екип е готов да отговори на вашите въпроси относно иновациите и технологиите в електромобилите.</p>
+            <div class="contact-content">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1222.6679710402445!2d27.92372052069286!3d43.20926069374766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a4540939dfa6d5%3A0x3d401ef3c09a59bf!2z0JjQutC-0L3QvtC80LjRh9C10YHQutC4INGD0L3QuNCy0LXRgNGB0LjRgtC10YIgLSDQktCw0YDQvdCw!5e0!3m2!1sbg!2sbg!4v1735745700204!5m2!1sbg!2sbg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="contact-form">
+                    <h2>Попълнете формата:</h2>
+                    <form action="submit_form.php" method="POST">
+                        <label for="name">Име:</label>
+                        <input type="text" id="name" name="name" required placeholder="Вашето име" aria-label="Въведете вашето име">
+                        <label for="email">Имейл:</label>
+                        <input type="email" id="email" name="email" required placeholder="Вашият имейл" aria-label="Въведете вашия имейл">
+                        <label for="message">Съобщение:</label>
+                        <textarea id="message" name="message" required placeholder="Вашето съобщение" aria-label="Въведете вашето съобщение"></textarea>
+                        <button type="submit">Изпрати</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 ElectriX. All rights reserved.</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com/" class="social-button" title="Follow us on Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://x.com/home" class="social-button" title="Follow us on Twitter">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/" class="social-button" title="Follow us on Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/" class="social-button" title="Follow us on LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </div>
+    </footer>    
+    <script src="home.js"></script>
+</body>
+</html>
